@@ -1,0 +1,33 @@
+#Get user
+whoami
+
+#Create file
+touch test.txt
+
+#Remove directory
+rm -r test/
+
+#Setting up GIT
+Source: https://www.theodinproject.com/lessons/foundations-setting-up-git
+
+#Git commands
+git --version
+
+#Go to home dir
+cd ~
+
+#Clone repo
+git clone git@github.com:stormKx18/Odin.git
+
+#Display url of repo
+git remote -v
+
+#Commit
+git status
+git add .
+git commit -m "Add hello_world.txt"
+git push
+git log
+
+#Open VisualStudio Code on repo
+code .
