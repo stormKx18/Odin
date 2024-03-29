@@ -30,5 +30,5 @@ git push
 git push origin main
 git log
 
-#Open VisualStudio Code on repo
+#Open VisualStudio Code from repository folder
 code .
