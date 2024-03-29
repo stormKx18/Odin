@@ -27,6 +27,7 @@ git status
 git add .
 git commit -m "Add hello_world.txt"
 git push
+git push origin main
 git log
 
 #Open VisualStudio Code on repo
