@@ -1,2 +1,2 @@
-# Odin
-- Web development porjects
+# The Odin Project
+- Web development projects
