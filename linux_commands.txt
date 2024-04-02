@@ -32,3 +32,10 @@ git log
 
 #Open VisualStudio Code from repository folder
 code .
+
+
+#React
+npm create vite@latest my-first-react-app -- --template react
+cd my-first-react-app
+npm install
+npm run dev
