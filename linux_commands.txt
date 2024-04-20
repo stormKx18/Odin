@@ -39,3 +39,6 @@ npm create vite@latest my-first-react-app -- --template react
 cd my-first-react-app
 npm install
 npm run dev
+
+#Lint - https://eslint.org/docs/latest/use/getting-started
+npm init @eslint/config
