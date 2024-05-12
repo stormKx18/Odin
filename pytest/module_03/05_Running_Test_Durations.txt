@@ -1,0 +1,11 @@
+# Use -vv
+python -m pytest -vv
+
+# Show all times for tests and setup and teardown
+python pytest --durations=0
+
+# Just show me the slowest
+python pytest --durations=1
+
+# Top 3 slowest tests
+python pytest --durations=3

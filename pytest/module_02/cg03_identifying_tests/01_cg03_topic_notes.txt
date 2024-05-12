@@ -1,0 +1,14 @@
+Module Names
+*******************************
+The module must start with "test" or end with "test"
+
+Function Names
+*******************************
+The method/function must start with "test"
+
+
+Customize the defaults
+*******************************
+Use python.ini
+
+

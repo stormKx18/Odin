@@ -1,0 +1,7 @@
+# Run all tests
+cd [target folder]
+python -m pytest
+
+# Running test based on markers
+python -m pytest -m [marker]
+python -m pytest -m both_negative

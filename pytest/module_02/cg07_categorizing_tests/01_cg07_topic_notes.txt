@@ -1,0 +1,19 @@
+Categorizing Tests using Markers
+
+1. Add the desired custom markers to tests across all tests & py files.
+
+2. Register the custom markers.
+    - Create pytest.ini
+    - Add markers to the file
+
+*** pytest.ini ***
+[pytest]
+markers =
+    both_positive
+    one_negative
+    both_negative
+*** pytest.ini ***
+
+3. Running tests with specific marker (eg. both_negative)
+    python -m pytest -m both_negative -v
+

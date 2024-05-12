@@ -1,0 +1,11 @@
+Topic: Skipping Tests (skip & xfail)
+
+Skip    --> The test is skipped
+XFail   --> The test is executed,
+            but it will not be counted
+            toward failed or passed tests.
+
+@pytest.mark.xfail
+
+@pytest.mark.skip
+

@@ -1,0 +1,11 @@
+Topic: Parameterization
+
+@pytest.mark.parametrize
+
+Example:
+
+@pytest.mark.parametrize("num1, num2, expected_result", [(20, 50, -30), (50, 70.50, -20.50)])
+def test_difference_para(num1, num2, expected_result):
+    calci = Calculator(num1, num2)
+    calci_result = calci.calc_diff()
+    assert calci_result == expected_result

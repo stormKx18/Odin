@@ -1,0 +1,15 @@
+# Identify and Run all
+python -m pytest
+python -m pytest -v
+pytest
+
+# Run tests in a module
+python -m pytest  [pyton file].py
+python -m pytest  [pyton file].py -v
+
+# Run tests in a folder
+python -m pytest  [ folder ]
+python -m pytest  [ folder ] -v
+
+# Running a specific file
+python -m pytest testpytest_assertions.py

@@ -1,0 +1,7 @@
+# Running test in parallel
+1. install pytest-xdist
+2. python -m pytest -n 4  (Runs using 4 workers)
+
+# Use time module to inject delay
+import time
+

@@ -1,0 +1,10 @@
+Topic: Test Fixtures
+
+@pytest.fixture
+
+Example:
+********************
+    @pytest.fixture
+    def create_test_environment():
+        calci = Calculator()
+        return calci

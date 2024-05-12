@@ -1,0 +1,5 @@
+Commands Used:
+
+python -m pytest
+
+python -m pytest -v

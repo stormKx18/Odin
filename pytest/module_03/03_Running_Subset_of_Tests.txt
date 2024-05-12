@@ -1,0 +1,8 @@
+# Run tests with certain marker
+python -m pytest -m [marker]
+
+# Run all tests that contain the string "add"
+python -m pytest -k add -v
+
+
+

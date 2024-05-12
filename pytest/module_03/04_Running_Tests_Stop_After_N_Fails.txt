@@ -1,0 +1,6 @@
+# using --maxfail
+python -m pytest -v --maxfail 1
+
+
+
+
