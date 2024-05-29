@@ -30,6 +30,24 @@ git push
 git push origin main
 git log
 
+#using branches
+#Create a new branch
+git branch <branch_name>
+
+#Change to a branch
+git checkout <branch_name>
+
+#View branches
+git branch
+
+#Merge branch to branch that you are currently on
+git merge <branch_name>
+
+#Delete branch
+git branch -d <branch_name> #Use this if branch has been merged into main
+git branch -D <branch_name> #Use this is branch has not been merged into main
+
+
 #Open VisualStudio Code from repository folder
 code .
 
@@ -42,3 +60,62 @@ npm run dev
 
 #Lint - https://eslint.org/docs/latest/use/getting-started
 npm init @eslint/config
+
+
+#CSS
+#to enforce height and width just add this css property:
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#Horizontally center element
+button{
+  display: block;
+  margin: 0 auto;
+}
+
+#Flex container - html
+<div class="flex-container">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+</div>
+
+#Flex container - CSS
+.flex-container {
+  display: flex;
+  justify-content:center;/*space-between*/ algin over main axis
+  flex-wrap: wrap;
+  gap:2rem;/8px
+  flex-direction:row; /*column*/
+  align-items:center; / align over cross-axis
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 50px;
+  flex: 1; 
+  min-width: 0px;// Set minimum width
+}
+
+.links{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info{
+  max-width: 200px;
+}
